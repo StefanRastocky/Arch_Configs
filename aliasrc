@@ -1,0 +1,5 @@
+alias grep="grep --colour=auto"
+alias ls="ls -a --color=auto"
+alias vi="nvim"
+alias less="less -N --use-color -DNG"
+alias za="zathura"

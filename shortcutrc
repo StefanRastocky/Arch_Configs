@@ -1,0 +1,5 @@
+BIB="/home/estefano/library/bib"
+CONF="/home/$USER/.config/"
+INIT="/home/$USER/.config/nvim/init.vim"
+ZSHRC="$CONF/zsh/.zshrc"
+

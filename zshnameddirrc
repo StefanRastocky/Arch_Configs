@@ -1,0 +1,15 @@
+hash -d conf=/home/estefano/.config
+hash -d c=/home/estefano/.config
+hash -d s=/home/estefano/.local/bin/
+hash -d doc=~/documents
+hash -d down=~/Downloads
+hash -d oldhome=~/documents/oldhome/estefano
+hash -d pics=~/documents/Pictures
+hash -d edu=~/documents/edu
+hash -d lsrc=/usr/local/src/
+hash -d dwm=~/.local/bin/dwm
+hash -d st=~/.local/bin/st
+
+hash -d mw=~/documents/edu/microwave/
+hash -d text=~/documents/library/TEXTBOOKS
+hash -d share=~/.local/share

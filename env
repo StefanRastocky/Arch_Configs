@@ -1,0 +1,30 @@
+#!/bin/sh
+
+# general env vars to be loaded by .bashenv or .zshenv
+
+# first set .local/bin in home to path
+export PATH="$HOME/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
+
+# some defaults
+export EDITOR="nvim"
+export TERMINAL="st"
+export BROWSER="qutebrowser"
+
+# clean some dotfiles in ZDG compliant directories
+export XAUTHORITY="$XDG_RUNTIME_DIR/Xauthority"
+export LESSHISTFILE="-"
+export WGETRC="$HOME/.config/wget/wgetrc"
+export ZDOTDIR="$HOME/.config/zsh"
+export XDG_DATA_HOME="$HOME/.local/share"
+export XDG_CONFIG_HOME="$HOME/.config"
+
+# some colors for man pages
+export LESS_TERMCAP_mb=$'\e[1;32m'
+export LESS_TERMCAP_md=$'\e[1;32m'
+export LESS_TERMCAP_me=$'\e[0m'
+export LESS_TERMCAP_se=$'\e[0m'
+export LESS_TERMCAP_so=$'\e[01;33m'
+export LESS_TERMCAP_ue=$'\e[0m'
+export LESS_TERMCAP_us=$'\e[1;4;31m'
+

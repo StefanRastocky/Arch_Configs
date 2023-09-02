@@ -1,0 +1,16 @@
+#!/bin/sh
+
+picom -b
+
+xcalib -d :0 ~/.config/.color/icc
+xrdb ~/.config/.Xresources
+
+#setbg & #no need for this as screen has setbg inside
+
+dunst &
+setkey &
+
+screen 
+status &
+killbt &
+
