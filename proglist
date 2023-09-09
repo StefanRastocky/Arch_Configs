@@ -5,16 +5,12 @@ base-devel
 c-ares
 dhcpcd
 dunst
-dwm
 firefox
-fontconfig-emoji-git
 git
 gnuradio-companion
 gqrx
-gqrx-scanner
 grub
 hackrf
-hackrf-spectrum-analyzer
 htop
 intel-ucode
 keepassxc
@@ -27,11 +23,9 @@ linux-firmware
 linux-hardened
 man-db
 man-pages
-megacmd
 mpv
 neofetch
 neovim
-noto-color-emoji-fontconfig
 nyx
 openssh
 picom
@@ -67,8 +61,6 @@ qt6-wayland
 qt6-websockets
 qt6-webview
 qutebrowser
-sound-theme-smooth
-st
 sxiv
 syncthing
 texlive-basic
@@ -79,7 +71,6 @@ texlive-latexrecommended
 texlive-mathscience
 tmux
 tor
-tor-browser
 ttf-liberation-mono-nerd
 util-linux
 wget
@@ -92,8 +83,6 @@ xorg-xinit
 xorg-xrandr
 xorg-xsetroot
 xwallpaper
-yay
-youtube-dl
 yt-dlp
 zathura
 zathura-pdf-mupdf
